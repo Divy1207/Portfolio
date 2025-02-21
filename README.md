@@ -7,7 +7,7 @@
 [![Databricks Certified](https://img.shields.io/badge/Databricks_Lakehouse-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](YOUR-DATABRICKS-LINK)
 
 <div align="center">
-  <img src="YOUR-GIF-LINK" width="600" height="300">
+  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="600" height="300">
 </div>
 
 ## 🛠️ Tech Stack
