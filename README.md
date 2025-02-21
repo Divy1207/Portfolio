@@ -95,5 +95,5 @@ Implemented serverless data pipelines handling 10M+ daily events
 [![Blog](https://img.shields.io/badge/Read_Blog-FF5722?style=for-the-plastic&logo=medium)](https://medium.com/@YOUR-HANDLE)  <!-- Your blog -->
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOURUSERNAME&label=Profile+Views&color=blue&style=flat" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Divy&label=Profile+Views&color=blue&style=flat" alt="Profile views"/>
 </div>
