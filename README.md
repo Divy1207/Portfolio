@@ -87,6 +87,10 @@ Implemented serverless data pipelines handling 10M+ daily events
 ## 📬 Let's Collaborate
 
 [![LinkedIn](https://img.shields.io/badge/Connect-0A66C2?style=for-the-plastic&logo=linkedin)](https://linkedin.com/in/YOUR-LINKEDIN)  <!-- Your LinkedIn -->
+
+
+## 📈 GitHub Analytics
+![Your Stats](https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=nightowl&include_all_commits=true)
 [![Email](https://img.shields.io/badge/Contact-EA4335?style=for-the-plastic&logo=gmail)](mailto:YOUR-EMAIL)  <!-- Your email -->
 [![Blog](https://img.shields.io/badge/Read_Blog-FF5722?style=for-the-plastic&logo=medium)](https://medium.com/@YOUR-HANDLE)  <!-- Your blog -->
 
