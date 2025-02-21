@@ -91,7 +91,4 @@ Implemented serverless data pipelines handling 10M+ daily events
 [![Email](https://img.shields.io/badge/Contact-EA4335?style=for-the-plastic&logo=gmail)](mailto:YOUR-EMAIL)  <!-- Your email -->
 [![Blog](https://img.shields.io/badge/Read_Blog-FF5722?style=for-the-plastic&logo=medium)](https://medium.com/@YOUR-HANDLE)  <!-- Your blog -->
 
-## GitHub Analytics
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Divy&label=Profile+Views&color=blue&style=flat" alt="Profile views"/>
-</div>
+![Contribution Snake](https://raw.githubusercontent.com/Divy/Divy/output/github-contribution-grid-snake.svg)
