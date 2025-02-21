@@ -93,6 +93,5 @@ Implemented serverless data pipelines handling 10M+ daily events
 
 ## GitHub Analytics
 <div align="center">
-  <h2>Divy</h2>
   <img src="https://komarev.com/ghpvc/?username=Divy&label=Profile+Views&color=blue&style=flat" alt="Profile views"/>
 </div>
