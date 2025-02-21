@@ -1,4 +1,4 @@
-# 💻 [Your Full Name]  <!-- Replace with your name -->
+# 💻 Divy Limbachiya  <!-- Replace with your name -->
 **Microsoft Certified Fabric Analytics Engineer**  
 *Cloud Data Architect | 2.5+ Years Engineering Enterprise Data Solutions*
 
