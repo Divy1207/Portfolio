@@ -1,97 +1,21 @@
-# 💻 Divy Limbachiya  <!-- Replace with your name -->
-**Microsoft Certified Fabric Analytics Engineer**  
-*Cloud Data Architect | 2.5+ Years Engineering Enterprise Data Solutions*
 
-[![Microsoft Certified](https://img.shields.io/badge/Microsoft_Fabric-Expert-0078D4?logo=microsoft&style=for-the-badge&logoColor=white)](https://learn.microsoft.com/en-us/users/YOUR-MICROSOFT-PROFILE)  <!-- Your cert link -->
-[![AWS Certified](https://img.shields.io/badge/AWS_Data_Engineer-Associate-FF9900?logo=amazon-aws&style=for-the-badge)](https://www.credly.com/users/YOUR-USERNAME/badges)  <!-- AWS badge URL -->
-[![Databricks Certified](https://img.shields.io/badge/Databricks-Lakehouse_Professional-FF3621?logo=databricks&style=for-the-badge)](https://credentials.databricks.com/YOUR-PROFILE)  <!-- Databricks cert link -->
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/divylimbachiya1207) 
 
-<div align="center">
-  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="600" height="300">
-</div>
+# 💻 Tech Stack:
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=divy1207&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=divy1207&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=divy1207&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🔥 My Technical Superpowers
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-```diff
-+ Azure Synapse Optimization: Reduced latency by 25%
-! Cost Control: Saved $15k/year through storage lifecycle policies
-# Spark Tuning: 5x faster query execution
-```
-
-## 🛠️ Production-Proven Stack
-
-### Core Architecture
-```mermaid
-graph TD
-  A[Azure Data Factory] --> B[Databricks]
-  B --> C{Analytics}
-  C --> D[Power BI]
-  C --> E[Synapse]
-  C --> F[ML Models]
-  style A fill:#0089D6,stroke:#333
-  style B fill:#FF3621,stroke:#333
-  style D fill:#F2C811,stroke:#333
-```
-
-<details>
-<summary>🔍 Full Technical Inventory</summary>
-
-| **Component**        | **Tools**                                                                 |
-|-----------------------|--------------------------------------------------------------------------|
-| Data Ingestion       | Azure Event Hubs, AWS Kinesis, REST APIs                                |
-| Transformation       | PySpark, Data Factory, AWS Glue                                        |
-| Orchestration        | Azure DevOps, GitHub Actions, Airflow                                  |
-| Monitoring           | Application Insights, CloudWatch, Datadog                              |
-</details>
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=divy1207&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=divy1207&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## 🏆 Career Milestones
-
-### 🛠️ Adani Ports Optimization
-**Tech**: `Azure Databricks` `PySpark` `ADLS Gen2`
-
-```python
-# Sample from your actual optimization work
-def optimize_spark():
-    spark.conf.set("spark.sql.adaptive.enabled", True)
-    spark.conf.set("spark.sql.shuffle.partitions", 200)
-    return spark.read.parquet("abfss://optimized@datalake.dfs.core.windows.net/")
-```
-
-<details>
-<summary>📊 Performance Metrics</summary>
-
-| Metric               | Before | After  |
-|----------------------|--------|--------|
-| Data Processing Time | 4.1h   | 1.2h   |
-| Cost/GB              | $0.38  | $0.22  |
-| Error Rate           | 12%    | 0.8%   |
-</details>
-
----
-
-## 🚀 Live Projects
-
-[![Medallion Architecture](https://img.shields.io/badge/AWS_Medallion-FF9900?style=for-the-plastic&logo=amazon-aws)](https://github.com/YOURUSERNAME/aws-medallion)  <!-- Project link -->
-```markdown
-Implemented serverless data pipelines handling 10M+ daily events
-- AWS Glue for ETL
-- Redshift Serverless for analytics
-- KMS encryption at rest
-```
-
----
-
-## 📬 Let's Collaborate
-
-[![LinkedIn](https://img.shields.io/badge/Connect-0A66C2?style=for-the-plastic&logo=linkedin)](https://linkedin.com/in/YOUR-LINKEDIN)  <!-- Your LinkedIn -->
-[![Email](https://img.shields.io/badge/Contact-EA4335?style=for-the-plastic&logo=gmail)](mailto:YOUR-EMAIL)  <!-- Your email -->
-[![Blog](https://img.shields.io/badge/Read_Blog-FF5722?style=for-the-plastic&logo=medium)](https://medium.com/@YOUR-HANDLE)  <!-- Your blog -->
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOURUSERNAME&label=Profile+Views&color=blue&style=flat" alt="Profile views"/>
-</div>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Divy1207/Portfolio/output/github-snake-dark.svg" width="800">
-</div>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
