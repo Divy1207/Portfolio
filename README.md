@@ -93,3 +93,7 @@ Implemented serverless data pipelines handling 10M+ daily events
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=YOURUSERNAME&label=Profile+Views&color=blue&style=flat" alt="Profile views"/>
 </div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Divy1207/Portfolio/output/github-snake-dark.svg" width="800">
+</div>
