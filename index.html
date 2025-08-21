@@ -22,35 +22,45 @@
       <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle theme">Theme</button>
     </nav>
   </header>
+
   <main id="home">
+    <!-- HERO -->
     <section class="container hero">
       <div class="hero-text">
         <img src="profile.png" alt="Profile picture" class="profile-pic">
         <h1>Divy Limbachiya</h1>
-        <p class="subtitle">Certified Data professional with experience in building scalable data solutions and automated workflows.</p>
+        <p class="subtitle">
+          Certified Data professional with experience in building scalable data solutions and automated workflows.
+        </p>
+
         <div class="pill-row">
           <span class="pill">Ontario, Canada</span>
           <span class="pill">Open to Data Engineer, Data Analyst and Analytics Engineer roles</span>
           <span class="pill">Focus areas: AWS, Azure, Snowflake, Databricks, dbt</span>
         </div>
+
         <div class="cta">
           <a href="#projects" class="btn">View Projects</a>
         </div>
-        
+
         <div class="socials">
           <a href="mailto:connect2.divy@gmail.com" aria-label="Email">Email</a>
           <a href="https://www.linkedin.com/in/divylimbachiya1207" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
           <a href="https://github.com/Divy1207" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
         </div>
+      </div>
     </section>
-    <section id="about" class="container section reveal" class="container section">
+
+    <!-- ABOUT -->
+    <section id="about" class="container section reveal">
       <h2>About</h2>
       <p>
         Data Engineer with experience across AWS, Azure, Snowflake, and Databricks. Built ELT and streaming pipelines, implemented data governance with row level security and IAM roles, and enabled analytics with dbt and BI tools. Interested in ML applications in production data systems.
       </p>
-      </div>
     </section>
-    <section id="skills" class="container section reveal" class="container section">
+
+    <!-- SKILLS -->
+    <section id="skills" class="container section reveal">
       <h2>Skills</h2>
       <div class="chips">
         <span class="chip">Python</span>
@@ -78,7 +88,9 @@
         <span class="chip">Looker</span>
       </div>
     </section>
-    <section id="toolbox" class="container section reveal" class="container section">
+
+    <!-- TOOLBOX -->
+    <section id="toolbox" class="container section reveal">
       <h2>Tech Toolbox</h2>
       <ul class="logo-grid" aria-label="Technologies and tools">
         <li title="Apache Airflow"><i class="devicon-apacheairflow-plain"></i><span>Airflow</span></li>
@@ -98,7 +110,9 @@
         <li title="Azure Data Factory"><span class="text-badge">ADF</span></li>
       </ul>
     </section>
-    <section id="projects" class="container section reveal" class="container section">
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container section reveal">
       <h2>Projects</h2>
       <div class="grid">
         <article class="card reveal">
@@ -108,11 +122,12 @@
             <li>Stack: AWS S3, Glue, Redshift, Lambda, SageMaker</li>
             <li>Outcome: Automated ingestion and accelerated ML insights</li>
           </ul>
-          <img src="aws-architecture.png" alt="AWS Data Architecture" class="project-img"/>
+          <img src="aws-architecture.png" alt="AWS Data Architecture" class="project-img">
           <div class="links">
             <a class="btn btn-small" href="https://github.com/Divy1207/AWS-Data-Engineering" target="_blank" rel="noopener">GitHub Repo</a>
           </div>
         </article>
+
         <article class="card reveal">
           <h3>Streaming ELT to Snowflake</h3>
           <p>Deployed real time streaming pipelines with Confluent Kafka and Databricks. Implemented Snowpipe ingestion and built dbt models with SCD Type 2 snapshots and materialized views to support ad hoc analysis.</p>
@@ -121,6 +136,7 @@
             <li>Outcome: Near real time analytics</li>
           </ul>
         </article>
+
         <article class="card reveal">
           <h3>Performance Tuning for Spark Workloads</h3>
           <p>Engineered lakehouse architecture with ACID guarantees and tuned Spark to reduce runtime. Applied partitioning and bucketing strategies to improve processing efficiency.</p>
@@ -131,48 +147,78 @@
         </article>
       </div>
     </section>
-<section id="experience" class="container section reveal">
-  <h2>Experience</h2>
-  <ul class="timeline">
-    <li>
-      <div class="tl-dot"></div>
-      <div class="tl-content">
-        <h3>Data Engineer, Upwork</h3>
-        <p class="tl-sub">Remote, Sep 2024 to Present</p>
-      </div>
-    </li>
-    <li>
-      <div class="tl-dot"></div>
-      <div class="tl-content">
-        <h3>Data Engineering Apprenticeship, TrendyTech</h3>
-        <p class="tl-sub">Remote, Apr 2024 to Dec 2024</p>
-      </div>
-    </li>
-    <li>
-      <div class="tl-dot"></div>
-      <div class="tl-content">
-        <h3>Data Analytics Engineering Intern, Adani Ports</h3>
-        <p class="tl-sub">Ahmedabad, Sep 2022 to Nov 2022</p>
-      </div>
-    </li>
-    <li>
-      <div class="tl-dot"></div>
-      <div class="tl-content">
-        <h3>Data Analyst, Visat IT Solutions</h3>
-        <p class="tl-sub">Ahmedabad, Jan 2021 to Aug 2022</p>
-      </div>
-    </li>
-  </ul>
-</section>
-    <section id="education" class="container section reveal" class="container section">
-      <h2>Education</h2>
-      <ul class="edu-list">
-        <li><strong>Cloud Computing Technologies</strong> :George Brown College, Toronto (Jan 2024 to Dec 2024)</li>
-        <li><strong>Data Analytics</strong> :Durham College, Oshawa (Jan 2023 to Sep 2023)</li>
-        <li><strong>BSc in Mathematics, Statistics, Physics</strong> :M.S. University of Baroda, India (Jun 2018 to May 2021)</li>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="container section reveal">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Data Engineer, Upwork</h3>
+            <p class="tl-sub">Remote, Sep 2024 to Present</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Data Engineering Apprenticeship, TrendyTech</h3>
+            <p class="tl-sub">Remote, Apr 2024 to Dec 2024</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Data Analytics Engineering Intern, Adani Ports</h3>
+            <p class="tl-sub">Ahmedabad, Sep 2022 to Nov 2022</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Data Analyst, Visat IT Solutions</h3>
+            <p class="tl-sub">Ahmedabad, Jan 2021 to Aug 2022</p>
+          </div>
+        </li>
       </ul>
     </section>
-    <section id="certs" class="container section reveal" class="container section">
+
+    <!-- EDUCATION -->
+    <section id="education" class="container section reveal">
+      <h2>Education</h2>
+      <ul class="edu-list">
+        <li class="edu-item">
+          <div class="edu-main">
+            <strong>Cloud Computing Technologies</strong>
+            <span class="edu-school">George Brown College, Toronto</span>
+          </div>
+          <time class="edu-date" datetime="2024-01">Jan 2024</time>
+          <span class="edu-sep">to</span>
+          <time class="edu-date" datetime="2024-12">Dec 2024</time>
+        </li>
+        <li class="edu-item">
+          <div class="edu-main">
+            <strong>Data Analytics</strong>
+            <span class="edu-school">Durham College, Oshawa</span>
+          </div>
+          <time class="edu-date" datetime="2023-01">Jan 2023</time>
+          <span class="edu-sep">to</span>
+          <time class="edu-date" datetime="2023-09">Sep 2023</time>
+        </li>
+        <li class="edu-item">
+          <div class="edu-main">
+            <strong>BSc in Mathematics, Statistics, Physics</strong>
+            <span class="edu-school">M.S. University of Baroda, India</span>
+          </div>
+          <time class="edu-date" datetime="2018-06">Jun 2018</time>
+          <span class="edu-sep">to</span>
+          <time class="edu-date" datetime="2021-05">May 2021</time>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="container section reveal">
       <h2>Certifications</h2>
       <ul class="edu-list">
         <li>AWS Certified Data Engineer</li>
@@ -180,19 +226,22 @@
         <li>Databricks Lakehouse Fundamentals</li>
       </ul>
     </section>
-    <section id="achievements" class="container section reveal" class="container section">
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="container section reveal">
       <h2>Achievements</h2>
       <ul class="edu-list">
         <li>Alleviated data anomalies by 40 percent and resolved 80 percent of integrity discrepancies.</li>
         <li>Mitigated storage costs by 30 percent through archival and lifecycle policies.</li>
       </ul>
     </section>
-    <section id="contact" class="container section reveal" class="container section">
+
+    <!-- CONTACT -->
+    <section id="contact" class="container section reveal">
       <h2>Contact</h2>
       <div class="contact-grid">
         <div>
           <p>Email: <a href="mailto:connect2.divy@gmail.com">connect2.divy@gmail.com</a></p>
-          
           <p>Location: Ontario, Canada</p>
         </div>
         <div>
@@ -222,9 +271,11 @@
       </div>
     </section>
   </main>
+
   <footer class="container footer">
     <p>&copy; <span id="year"></span> Divy Limbachiya. All rights reserved.</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
