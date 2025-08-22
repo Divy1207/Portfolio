@@ -267,3 +267,18 @@ a:hover {
   border-radius: 0;
   box-shadow: none;
 }
+
+
+/* Social buttons alignment and icons */
+.socials { display: flex; gap: 12px; padding-top: 10px; justify-content: center; flex-wrap: wrap; }
+.socials a.btn-ghost { 
+  display: inline-flex; align-items: center; gap: 8px; 
+  background: var(--panel); color: var(--text); 
+  border: 1px solid color-mix(in srgb, var(--text-muted) 28%, transparent);
+  text-decoration: none; font-weight: 600; border-radius: 12px; padding: 10px 14px;
+}
+.socials a.btn-ghost:hover { transform: translateY(-1px); box-shadow: 0 6px 18px var(--ring); }
+.socials i, .socials .icon { font-size: 18px; line-height: 1; display: inline-flex; }
+@media (max-width: 640px) {
+  .socials { gap: 10px; }
+}
