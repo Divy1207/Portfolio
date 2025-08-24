@@ -22,50 +22,56 @@
       <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle theme">Theme</button>
     </nav>
   </header>
+
   <main id="home">
     <section class="container hero">
       <div class="hero-text">
         <img src="profile.png" alt="Profile picture" class="profile-pic">
         <h1>Divy Limbachiya</h1>
         <p class="subtitle">Certified Data professional with experience in building scalable data solutions and automated workflows.</p>
+
         <div class="pill-row">
           <span class="pill">Ontario, Canada</span>
           <span class="pill">Open to Data Engineer, Data Analyst and Analytics Engineer roles</span>
           <span class="pill">Focus areas: AWS, Azure, Snowflake, Databricks, dbt</span>
         </div>
+
+        <!-- Primary CTA -->
         <div class="cta">
-          <a href="#projects" class="btn">View Projects</a>
+          <a href="#projects" class="btn btn-primary">View Projects</a>
         </div>
-        
+
+        <!-- Social buttons -->
         <div class="socials">
-  <a href="mailto:connect2.divy@gmail.com" class="btn-ghost" aria-label="Email">
-    <span class="icon" aria-hidden="true">
-      <!-- Envelope icon -->
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-        <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.6" />
-        <path d="M22 8l-9.2 6.9a2 2 0 0 1-2.4 0L2 8" stroke="currentColor" stroke-width="1.6" />
-      </svg>
-    </span>
-    Email
-  </a>
-  <a href="https://www.linkedin.com/in/divylimbachiya1207" target="_blank" rel="noopener" class="btn-ghost" aria-label="LinkedIn">
-    <i class="devicon-linkedin-plain" aria-hidden="true"></i>
-    LinkedIn
-  </a>
-  <a href="https://github.com/Divy1207" target="_blank" rel="noopener" class="btn-ghost" aria-label="GitHub">
-    <i class="devicon-github-original" aria-hidden="true"></i>
-    GitHub
-  </a>
-</div>
+          <a href="mailto:connect2.divy@gmail.com" class="btn-ghost" aria-label="Email">
+            <span class="icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+                <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.6" />
+                <path d="M22 8l-9.2 6.9a2 2 0 0 1-2.4 0L2 8" stroke="currentColor" stroke-width="1.6" />
+              </svg>
+            </span>
+            Email
+          </a>
+          <a href="https://www.linkedin.com/in/divylimbachiya1207" target="_blank" rel="noopener" class="btn-ghost" aria-label="LinkedIn">
+            <i class="devicon-linkedin-plain" aria-hidden="true"></i>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Divy1207" target="_blank" rel="noopener" class="btn-ghost" aria-label="GitHub">
+            <i class="devicon-github-original" aria-hidden="true"></i>
+            GitHub
+          </a>
+        </div>
+      </div>
     </section>
-    <section id="about" class="container section reveal" class="container section">
+
+    <section id="about" class="container section reveal">
       <h2>About</h2>
       <p>
         Data Engineer with experience across AWS, Azure, Snowflake, and Databricks. Built ELT and streaming pipelines, implemented data governance with row level security and IAM roles, and enabled analytics with dbt and BI tools. Interested in ML applications in production data systems.
       </p>
-      </div>
     </section>
-    <section id="skills" class="container section reveal" class="container section">
+
+    <section id="skills" class="container section reveal">
       <h2>Skills</h2>
       <div class="chips">
         <span class="chip">Python</span>
@@ -93,7 +99,8 @@
         <span class="chip">Looker</span>
       </div>
     </section>
-    <section id="toolbox" class="container section reveal" class="container section">
+
+    <section id="toolbox" class="container section reveal">
       <h2>Tech Toolbox</h2>
       <ul class="logo-grid" aria-label="Technologies and tools">
         <li title="Apache Airflow"><i class="devicon-apacheairflow-plain"></i><span>Airflow</span></li>
@@ -113,7 +120,8 @@
         <li title="Azure Data Factory"><span class="text-badge">ADF</span></li>
       </ul>
     </section>
-    <section id="projects" class="container section reveal" class="container section">
+
+    <section id="projects" class="container section reveal">
       <h2>Projects</h2>
       <div class="grid">
         <article class="card reveal">
@@ -125,9 +133,10 @@
           </ul>
           <img src="aws-architecture.png" alt="AWS Data Architecture" class="project-img"/>
           <div class="links">
-            <a class="btn btn-small" href="https://github.com/Divy1207/AWS-Data-Engineering" target="_blank" rel="noopener">GitHub Repo</a>
+            <a class="btn btn-outline btn-small" href="https://github.com/Divy1207/AWS-Data-Engineering" target="_blank" rel="noopener">GitHub Repo</a>
           </div>
         </article>
+
         <article class="card reveal">
           <h3>Streaming ELT to Snowflake</h3>
           <p>Deployed real time streaming pipelines with Confluent Kafka and Databricks. Implemented Snowpipe ingestion and built dbt models with SCD Type 2 snapshots and materialized views to support ad hoc analysis.</p>
@@ -136,6 +145,7 @@
             <li>Outcome: Near real time analytics</li>
           </ul>
         </article>
+
         <article class="card reveal">
           <h3>Performance Tuning for Spark Workloads</h3>
           <p>Engineered lakehouse architecture with ACID guarantees and tuned Spark to reduce runtime. Applied partitioning and bucketing strategies to improve processing efficiency.</p>
@@ -146,40 +156,42 @@
         </article>
       </div>
     </section>
-<section id="experience" class="container section reveal">
-  <h2>Experience</h2>
-  <ul class="timeline">
-    <li>
-      <div class="tl-dot"></div>
-      <div class="tl-content">
-        <h3>Data Engineer, Upwork</h3>
-        <p class="tl-sub">Remote, Sep 2024 to Present</p>
-      </div>
-    </li>
-    <li>
-      <div class="tl-dot"></div>
-      <div class="tl-content">
-        <h3>Data Engineering Apprenticeship, TrendyTech</h3>
-        <p class="tl-sub">Remote, Apr 2024 to Dec 2024</p>
-      </div>
-    </li>
-    <li>
-      <div class="tl-dot"></div>
-      <div class="tl-content">
-        <h3>Data Analytics Engineering Intern, Adani Ports</h3>
-        <p class="tl-sub">Ahmedabad, Sep 2022 to Nov 2022</p>
-      </div>
-    </li>
-    <li>
-      <div class="tl-dot"></div>
-      <div class="tl-content">
-        <h3>Data Analyst, Visat IT Solutions</h3>
-        <p class="tl-sub">Ahmedabad, Jan 2021 to Aug 2022</p>
-      </div>
-    </li>
-  </ul>
-</section>
-    <section id="education" class="container section reveal" class="container section">
+
+    <section id="experience" class="container section reveal">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Data Engineer, Upwork</h3>
+            <p class="tl-sub">Remote, Sep 2024 to Present</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Data Engineering Apprenticeship, TrendyTech</h3>
+            <p class="tl-sub">Remote, Apr 2024 to Dec 2024</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Data Analytics Engineering Intern, Adani Ports</h3>
+            <p class="tl-sub">Ahmedabad, Sep 2022 to Nov 2022</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Data Analyst, Visat IT Solutions</h3>
+            <p class="tl-sub">Ahmedabad, Jan 2021 to Aug 2022</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education" class="container section reveal">
       <h2>Education</h2>
       <ul class="edu-list">
         <li><strong>Cloud Computing Technologies:</strong> George Brown College, Toronto (Jan 2024 to Dec 2024)</li>
@@ -187,7 +199,8 @@
         <li><strong>BSc in Mathematics, Statistics, Physics:</strong> M.S. University of Baroda, India (Jun 2018 to May 2021)</li>
       </ul>
     </section>
-    <section id="certs" class="container section reveal" class="container section">
+
+    <section id="certs" class="container section reveal">
       <h2>Certifications</h2>
       <ul class="edu-list">
         <li>AWS Certified Data Engineer</li>
@@ -195,19 +208,20 @@
         <li>Databricks Lakehouse Fundamentals</li>
       </ul>
     </section>
-    <section id="achievements" class="container section reveal" class="container section">
+
+    <section id="achievements" class="container section reveal">
       <h2>Achievements</h2>
       <ul class="edu-list">
         <li>Alleviated data anomalies by 40 percent and resolved 80 percent of integrity discrepancies.</li>
         <li>Mitigated storage costs by 30 percent through archival and lifecycle policies.</li>
       </ul>
     </section>
-    <section id="contact" class="container section reveal" class="container section">
+
+    <section id="contact" class="container section reveal">
       <h2>Contact</h2>
       <div class="contact-grid">
         <div>
           <p>Email: <a href="mailto:connect2.divy@gmail.com">connect2.divy@gmail.com</a></p>
-          
           <p>Location: Ontario, Canada</p>
         </div>
         <div>
@@ -226,20 +240,22 @@
               <span>Message</span>
               <textarea name="message" rows="5" required></textarea>
             </label>
-            <button type="submit" class="btn">Send</button>
+            <button type="submit" class="btn btn-primary">Send</button>
             <p id="formStatus" class="status" role="status" aria-live="polite"></p>
           </form>
           <div class="socials">
-            <a href="https://github.com/Divy1207" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/divylimbachiya1207" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/Divy1207" target="_blank" rel="noopener" class="btn-ghost">GitHub</a>
+            <a href="https://www.linkedin.com/in/divylimbachiya1207" target="_blank" rel="noopener" class="btn-ghost">LinkedIn</a>
           </div>
         </div>
       </div>
     </section>
   </main>
+
   <footer class="container footer">
     <p>&copy; <span id="year"></span> Divy Limbachiya. All rights reserved.</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
