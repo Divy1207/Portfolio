@@ -6,18 +6,18 @@ html:focus-within { scroll-behavior: smooth; }
   --panel: #141824;
   --text: #e7e9ee;
   --text-muted: #a4aabc;
-  --accent: #4f46e5;
-  --accent-2: #22d3ee;
-  --ring: rgba(79,70,229,.35);
+  --accent: #2563eb;
+  --accent-2: #1e40af;
+  --ring: rgba(37,99,235,.35);
 }
 :root.light {
   --bg: #ffffff;
   --panel: #f6f8fc;
   --text: #0e1014;
   --text-muted: #626c82;
-  --accent: #4338ca;
-  --accent-2: #0891b2;
-  --ring: rgba(67,56,202,.22);
+  --accent: #1d4ed8;
+  --accent-2: #1e40af;
+  --ring: rgba(29,78,216,.25);
 }
 body {
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
@@ -41,17 +41,28 @@ body {
 }
 nav a { color: var(--text-muted); text-decoration: none; margin: 0 10px; font-weight: 600; }
 nav a:hover { color: var(--text); }
-.btn {
-  display: inline-block; padding: 10px 16px; border-radius: 12px; border: 1px solid transparent;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: white; text-decoration: none; font-weight: 700; box-shadow: 0 6px 18px var(--ring);
+
+/* Buttons: only change made for contrast */
+.btn{
+  display:inline-block;
+  padding:10px 16px;
+  border-radius:12px;
+  border:1px solid transparent;
+  background: var(--accent);   /* solid for high contrast */
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+  box-shadow:0 6px 18px var(--ring);
+  transition: background .2s ease, transform .1s ease;
 }
-.btn:hover { transform: translateY(-1px); }
+.btn:hover{ background:var(--accent-2); transform:translateY(-1px); }
+
 .btn-ghost {
   background: transparent; color: var(--text); border: 1px solid color-mix(in srgb, var(--text-muted) 28%, transparent);
   box-shadow: none; border-radius: 12px; padding: 9px 14px; cursor: pointer;
 }
 .btn-small { padding: 8px 12px; font-size: 14px; }
+
 .pill-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 2px; }
 .pill { background: var(--panel); color: var(--text); padding: 6px 10px; border-radius: 999px; font-size: 13px; border: 1px solid color-mix(in srgb, var(--text-muted) 20%, transparent); }
 .hero {
@@ -98,7 +109,6 @@ nav a:hover { color: var(--text); }
   .grid { grid-template-columns: 1fr; }
   .contact-form .row { grid-template-columns: 1fr; }
 }
-
 
 /* Social link styling */
 .socials a, .socials a:visited {
